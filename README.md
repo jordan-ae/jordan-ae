@@ -7,5 +7,6 @@
 - 📫 Reach me at: arreyetta1jnr@gmail.com
 - 😄 Pronouns: HE/HIM
 - ⚡ Fun fact: TS is way cooler than JS 😉
+- 🤖 Open source gic
 
 
