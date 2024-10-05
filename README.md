@@ -24,15 +24,11 @@
 
 
 <!--Intro start-->
-- 🔭 Expert at **Typescript, ReactJS, Nodejs**
+- 🔭 Love writting **Typescript, ReactJS, Nodejs**
 
-- 🌱 I’m currently **Contributiong to OSS and Projects I'm passionate about**
-
-- ☁️ I've keen interest in **web3** and **AI**
+- 🌱 I’m currently **Building Cool Stuff**
 
 - 📝 I regularly write articles on [Medium](https://medium.com/@arreyetta1jnr)
-
-- 💬 Let's talk **Typescript and Web3**
 
 - 📫 Feel free to reach me out **arreyetta1jnr@gmail.com**
 
