@@ -9,7 +9,7 @@ I build tools that make other devs go “oh wow, that’s cool.”
 ## 💻 What I'm Working On
 
 - 🧠 **Lydian AI** – Turn messy notes into tasks, financial plans, and execution plans. Like Notion, but way smarter.
-- 🔐 **Beam** – 200+ API integrations. One click. No OAuth headaches. (You're welcome.)
+- 🔐 **Arrey** – 200+ API integrations. One click. No OAuth headaches. (You're welcome.)
 
 ---
 
