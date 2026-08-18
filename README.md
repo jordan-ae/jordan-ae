@@ -1,21 +1,20 @@
-# 👋 Hi, I'm Arrey
+# Hi, I'm Arrey 👋
 
-Software developer by day. Indie hacker by night. Occasionally yelling at OAuth flows for being too complicated.
+AI engineer focused on making autonomous agents actually work in
+production — evals, observability, tool orchestration, reliability.
 
-I build tools that make other devs go “oh wow, that’s cool.”
+## 🔨 What I'm doing right now
+Shipping one open-source agent-infrastructure project every week,
+in public. Evals, tracing, failure recovery, benchmarks — the
+unglamorous parts that decide whether an agent survives production.
 
----
+First one lands this week. Watch this space.
 
-## 💻 What I'm Working On
+## 🧰 Stack
+``` ts
+TypeScript • Node.js • React/Next.js • LangGraph • Supabase • MongoDB
 
-- 🧠 **Lydian AI** – Turn messy notes into tasks, financial plans, and execution plans. Like Notion, but way smarter.
-- 🔐 **Arrey** – 200+ API integrations. One click. No OAuth headaches. (You're welcome.)
-
----
-
-## 🛠 Tech I Use a Lot
-
-```ts
-React • Next.js • Tailwind • Node.js • TypeScript • Supabase • MongoDB
-LangGraph • OAuth2 • Vite • Zustand • Framer Motion • GitHub Actions
+```
+## 📫 Elsewhere
+LinkedIn: [https://www.linkedin.com/in/arrey-etta-24530b1a2/] • Writing: [https://substack.com/@arreyetta/posts]
 
