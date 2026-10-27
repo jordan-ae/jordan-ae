@@ -2,20 +2,21 @@
 
 Software engineer and designer in Yaoundé, Cameroon, working remotely. I build AI products end to end: the model calls and data pipelines, the interface, the payments, and the emails that bring people back.
 
-### Building: Arkoo
+### Building: Arkoo Autopilot
 
-[Arkoo](https://arkoojobs.com) is a job-search product built around **Autopilot**, an agent that finds roles that fit, tailors the CV and cover letter for each one, and fills in the employer's own application form.
+[Arkoo](https://arkoojobs.com) is a job-search product, and its core is **Autopilot**: an AI agent that runs a candidate's job search end to end. On a schedule it picks the roles worth applying to and writes a tailored CV and cover letter for each. Then it opens the employer's real application in a cloud browser, fills every field, checks its own work, submits, and sends the candidate a receipt.
 
-- **Sourcing.** A daily pipeline reads 24 sources, including Greenhouse, Ashby, Lever, SmartRecruiters, Workable, YC's Work at a Startup and boards found through VC portfolios. It scores each listing's quality and retires dead ones.
-- **Deterministic first.** A DOM-only fill engine ([open source](https://github.com/jordan-ae/ats-form-fill)) reads, fills and reads back Greenhouse, Ashby and Lever forms, and ATS APIs cover more. That's about 89% of postings with no LLM in the loop. The model only maps unfamiliar questions and drafts open-ended answers.
-- **No invented facts.** Work authorisation, salary, notice period and similar answers come only from what the user has stored. The model can match a stored value to a form's option, but it never picks the value. Every draft it writes is saved for the user to correct.
-- **Gated submission.** Thirteen checks run on the live page before a single submit press: trap wording, field read-back, the tailored CV attached, per-company caps and budget. Anything that fails goes to a review queue. Autopilot is in private pilot.
+- **Plans.** It reads postings from 24 sources, from Greenhouse, Ashby and Lever boards to YC's Work at a Startup and VC portfolio boards. It rules out jobs the candidate can't legally be hired for, then scores the shortlist with a fast decision model that answers typed questions with a confidence, for a fraction of a cent per posting. It applies to the best matches within daily and per-company limits.
+- **Writes.** For every job it tailors the CV and cover letter, and drafts answers to open-ended questions from the candidate's own CV and past answers. A fabrication guard throws out any draft that states a number the candidate's material doesn't contain.
+- **Acts in a real browser.** Each application runs in a [Browser Use](https://browser-use.com) cloud browser driven by Playwright. An injected form engine ([open source](https://github.com/jordan-ae/ats-form-fill)) reads and fills Greenhouse, Ashby and Lever forms. A navigator follows Apply links from job boards through to the employer's own form.
+- **Doesn't invent facts.** Work authorisation, salary and notice period come only from what the candidate has stored; the model maps questions and options, never the facts. Every answer it writes goes into an answer bank, and the candidate's corrections are what it uses next time.
+- **Checks before it submits.** Thirteen gates run on the live page before a single press of submit, including read-back of every field, the right CV attached, trap wording, eligibility and budget. Anything that fails goes to a review queue, and every submission leaves a receipt with a screenshot.
 
-The same fill code runs in a Chrome extension for people who'd rather press submit themselves.
+Autopilot is in private pilot. The same engine powers a Chrome extension for candidates who'd rather press submit themselves.
 
 ### Also built
 
-- **[Pheme](https://github.com/jordan-ae/Pheme)**: a shared memory layer for AI coding agents. Decisions and constraints live with the project in Postgres and pgvector, and every agent reads and writes them over MCP or REST.
+- **[Pheme](https://pheme-dashboard.vercel.app)**: a shared memory layer for AI coding agents. Decisions and constraints live with the project in Postgres and pgvector, and every agent reads and writes them over MCP or REST.
 - **[arrey-cli](https://github.com/jordan-ae/arrey)**: installs AI tools into your project as editable source code, the way shadcn/ui does for components. Published on npm.
 
 ### Open source
