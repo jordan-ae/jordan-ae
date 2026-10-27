@@ -1,20 +1,21 @@
-# Hi, I'm Arrey 👋
+# Arrey Etta
 
-AI engineer focused on making autonomous agents actually work in
-production — evals, observability, tool orchestration, reliability.
+Software engineer and designer in Yaoundé, Cameroon, working remotely. I build AI products end to end: the model calls and data pipelines, the interface, the payments, and the emails that bring people back.
 
-## 🔨 What I'm doing right now
-Shipping one open-source agent-infrastructure project every week,
-in public. Evals, tracing, failure recovery, benchmarks — the
-unglamorous parts that decide whether an agent survives production.
+### Shipped
 
-First one lands this week. Watch this space.
+- **[CLBPass](https://clbpass.com)**: AI-graded practice for the TEF and TCF Canada French exams, at the B2/C1 level. It runs on web, iOS and Android, with in-app purchases and a WhatsApp tutor.
+- **[Arkoo Jobs](https://arkoojobs.com)**: a remote job board and job-search assistant. A daily ingestion pipeline pulls from company ATS boards and VC portfolio boards and scores each listing's quality. On top of that it tailors CVs and cover letters with AI and grades resumes.
+- **[arrey-cli](https://github.com/jordan-ae/arrey)**: installs AI tools into your project as editable source code, the way shadcn/ui does for components. Published on npm.
 
-## 🧰 Stack
-``` ts
-TypeScript • Node.js • React/Next.js • LangGraph • Supabase • MongoDB
+### Open source
 
-```
-## 📫 Elsewhere
-LinkedIn: [https://www.linkedin.com/in/arrey-etta-24530b1a2/] • Writing: [https://substack.com/@arreyetta/posts]
+90+ merged pull requests to [Stakwork](https://github.com/stakwork), mostly the bounty planner and Hive chat in [sphinx-tribes-frontend](https://github.com/stakwork/sphinx-tribes-frontend), plus [sphinx-nav-fiber](https://github.com/stakwork/sphinx-nav-fiber) and [hive](https://github.com/stakwork/hive).
 
+### Stack
+
+TypeScript · React / Next.js · React Native · Node · Supabase / Postgres · AWS · Cloudflare · LLM APIs
+
+### Elsewhere
+
+[arrey.codes](https://arrey.codes) · [Writing](https://substack.com/@arreyetta/posts) · [LinkedIn](https://www.linkedin.com/in/arrey-etta-24530b1a2/)
