@@ -16,7 +16,7 @@ Autopilot is in private pilot. The same engine powers a Chrome extension for can
 
 ### Also built
 
-- **[Pheme](https://pheme-dashboard.vercel.app)**: a shared memory layer for AI coding agents. Decisions and constraints live with the project in Postgres and pgvector, and every agent reads and writes them over MCP or REST.
+- **[Pheme](https://phemesh.vercel.app)**: a shared memory layer for AI coding agents. Decisions and constraints live with the project in Postgres and pgvector, and every agent reads and writes them over MCP or REST.
 - **[arrey-cli](https://github.com/jordan-ae/arrey)**: installs AI tools into your project as editable source code, the way shadcn/ui does for components. Published on npm.
 
 ### Open source
